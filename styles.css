@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: #060942;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+    color: black;
+ }
+
+#stargif {
+   width: 200px;
+    height: 200px;
+    position: absolute;
+    pointer-events: none; 
+    transform: translate3d(50px,50px,0);
+    transition: transform 0.3s cubic-bezier(0, 0.64, 0.52, 0.24);
+}
+
+.particle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: rgb(255, 231, 145);
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+
